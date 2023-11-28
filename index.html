@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <section id="calculadora">
+        <section id="visor">
+            <p id="resultado"></p>
+        </section>
+        <section id="teclas">
+            <table>
+                <tr>
+                    <td><button onclick="tela('1')">1</button></td>
+                    <td><button onclick="tela('2')">2</button></td>
+                    <td><button onclick="tela('3')">3</button></td>
+                    <td><button onclick="tela('+')">+</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="tela('4')">4</button></td>
+                    <td><button onclick="tela('5')">5</button></td>
+                    <td><button onclick="tela('6')">6</button></td>
+                    <td><button onclick="tela('-')">-</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="tela('7')">7</button></td>
+                    <td><button onclick="tela('8')">8</button></td>
+                    <td><button onclick="tela('9')">9</button></td>
+                    <td><button onclick="tela('x')">x</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="tela(',')">,</button></td>
+                    <td><button onclick="tela('0')">0</button></td>
+                    <td><button onclick="tela('%')">%</button></td>
+                    <td><button onclick="tela('/')">/</button></td>
+                </tr>
+                <tr>
+                    <td><button>C</button></td>
+                    <td><button>CE</button></td>
+                    <td><button>⬅</button></td>
+                    <td><button>=</button></td>
+                </tr>
+            </table>
+        </section>
+    </section>
+</body>
+</html>
