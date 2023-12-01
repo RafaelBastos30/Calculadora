@@ -2,6 +2,8 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to bottom, blue, black);
+    background-attachment: fixed;
 }
 
 section#calculadora{
@@ -66,3 +68,4 @@ button{
  button:hover{
     background-color: rgba(161, 161, 161, 0.76);
  }
+
